@@ -180,20 +180,20 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #46494c;
   }
 
   .about-content{
    display: grid;
    grid-template-columns: 2fr 1fr;
    gap: 4rem;
-   color: #46494c;
   } 
 
   .about-content img{
     width: 100%;
   }
 
-  .about-text h2{
+  .about-text h2, #services h2{
     font-size: 4rem;
     text-transform: uppercase;
   }
@@ -222,11 +222,122 @@ a {
     margin: 0;
     display: flex;
     align-items: center;
-    text-align: center
+    text-align: center;
   }
 
   .about-text h2 span {
     color: #f77f00;
   }
 
+  .time-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 150rem;
+    min-height: 30rem;
+    margin: 0 auto;
+    color: #46494c;
+  }
+
+  .time-line-progress {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .time-line-progress div.ball {
+    width: 13rem;
+    height: 13rem;
+    background-color: #f77f00;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .time-line {
+    font-size: 1.6rem;
+  }
+
+  .time-line h4 {
+    padding-top: 1.5rem;
+    font-size: 1.9rem;
+  }
+
+  .time-line p {
+    padding-top: .7rem;
+    max-width: 25rem;
+    text-align: center;
+  }
   
+  /* SERVICES */
+  .services-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 1.5rem;
+    gap: 2.2rem;
+  }
+
+  .service-about img {
+    max-width: 100%;
+    border-radius: .5rem;
+  }
+
+  section#services{
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .service-about h3 {
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    font-weight: 300;
+  }
+
+  .service-about p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+    text-align: justify;
+  }
+
+  .service-about a {
+    color: #46494c;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .service-about a:hover {
+    text-decoration: underline;
+    transition: all 300ms ease-in-out;
+    color: #f77f00;
+  }
+
+  .service-btn {
+    grid-column-start: 3;
+    margin-top: 10rem;
+    align-self: end;
+    justify-self: end;
+  }
+
+  .services-content button{
+    width: 30rem;
+    padding: 1.5rem 0;
+    font-size: 1.8rem;
+    border-radius: .2rem;
+    color: #FFFFFF;
+    background-color: #f77f00;
+    border: .1rem solid #f77f00;
+  }
+
+  .services-content button:hover {
+    background-color: #FFFFFF;
+    color: #46494c;
+    border: .1rem solid #f77f00;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+  }

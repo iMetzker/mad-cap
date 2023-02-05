@@ -9,9 +9,9 @@
 
 ## 📎 Sobre
 
-O projeto consiste na criação de uma landing page para uma madeireira e carpintaria fictícia que oferece produtos e serviços de trabalhos manuais, chamada MadCap.
+O projeto consiste na criação de uma landing page para uma marcenaria e carpintaria fictícia que oferece produtos e serviços de trabalhos manuais, chamada MadCap.
 
-⚙ O projeto está atualmente está em desenvolvimento
+⚙ O projeto está atualmente em desenvolvimento, previsão para finalização na data 08/02/23.
 
 ## 🛸 Tecnologias Utilizadas
 
