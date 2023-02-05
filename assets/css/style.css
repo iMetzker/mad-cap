@@ -63,6 +63,11 @@ a {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
+    color: #000;
+  }
+
+  .menu-logo a:hover{
+    cursor: pointer;  
   }
 
   .menu-logo a span {
@@ -85,7 +90,7 @@ a {
   }
 
   .menu-icons a:hover path {
-    fill: #78b75b;
+    fill: #f77f00;
     transition: all 300ms ease-in-out;
   }
 
@@ -97,7 +102,7 @@ a {
   left: 50%;
   width: 0;
   height: .2rem;
-  background-color: #78b75b;
+  background-color: #f77f00;
   transition: all 300ms ease-in-out;
   }
 
@@ -106,5 +111,61 @@ a {
   left: 25%;
   }
 
- 
+  /* HOME */
+  .page-home {
+    background-image: url('../img/handsome-carpenter.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
 
+  .main-content {
+    color: #FFFFFF;
+    min-height: 100vh;
+    padding: 015rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+
+  .home-title {
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .main-content b{
+  color: #f77f00;
+  }
+
+  .home-description {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+
+  .home-description p {
+    margin: 2.5rem 0;
+    max-width: 80rem;
+  }
+ 
+  .home-description button {
+    width: 30rem;
+    padding: 1.5rem 0;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: .2rem;
+  }
+
+  .home-description button:hover {
+    background-color: #f77f00;
+    color: #FFFFFF;
+    font-weight: normal;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+  }
+
+  .button-space {
+    gap: .6rem;
+    display: flex;
+  }
