@@ -341,3 +341,74 @@ a {
     transition: all 300ms ease-in-out;
     cursor: pointer;
   }
+
+  /* CONTATC */
+  .contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  div.contact-content .logo-contact img{
+    min-width: 30rem;
+  }
+
+  .logo-contact {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-weight: 300;
+  }
+
+  .logo-contact span {
+    margin-top: 9rem;
+    font-size: 8rem;
+  }
+
+  .logo-contact span.logo-detail {
+    font-weight: bold;
+  }
+
+  .logo-contact span.logo-detail-point {
+    font-size: 10rem;
+    color: #f77f00;
+  }
+
+  .contact-content hr {
+    height: .2rem;
+    width: 100rem;
+    background-color: #46494c;
+    margin: 2rem 0;
+  }
+
+  .contact-content h3 {
+    font-size: 5rem;
+    color:#000;
+    margin-bottom: 1rem;
+  }
+
+  .contact-about {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .description-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .contact-about-icons {
+   display: flex;
+   padding-top: 2rem;
+   gap: 4rem;
+  }
+
+  .contact-about p {
+    padding: .5rem .2rem;
+
+  }
+
