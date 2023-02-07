@@ -3,6 +3,8 @@
     
     .about-content{
         grid-template-columns: 1fr 1fr;
+        padding-top: 5rem;
+        min-height: 100vh;
        } 
 
        .about-details {
@@ -25,8 +27,7 @@
     @media (max-width: 1180px) {
         .services-content {
             display: flex;
-            flex-direction: column;
-            
+            flex-direction: column;       
             max-width: 70rem;
           }
 
@@ -74,7 +75,7 @@
 
       .about-details p{
         font-size: 1.6rem;
-        margin-top: -.6rem;
+        margin: 0;
       }
 
 
