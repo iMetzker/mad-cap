@@ -1,3 +1,69 @@
+/* MENU */
+@media (max-width: 815px) {
+
+  
+    
+  .menu-mobile-lines {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  .line {
+    width: 3rem;
+    height: .3rem;
+    background-color: #f77f00;
+    margin: .6rem 0;
+  }
+
+  .menu-content nav {
+    height: 0;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: #FFF;
+    transition: 0.2s;
+    overflow: hidden;
+  }
+
+  .menu-icons {
+    position: absolute;
+    top: -2rem;
+  }
+
+  .menu-icons svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .menu-content nav ul{
+    display: block;
+    width: fit-content;
+    margin: 8rem auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0; 
+  }
+
+  .menu-content nav ul li a{
+  margin-bottom: 1rem; 
+  }
+
+  .nav-bar.active {
+    height: 45rem;
+  }
+
+  .nav-bar.active ul{
+    opacity: 1;
+  }
+
+}
+
+
+
+
 /* ABOUT */
 @media (max-width: 1380px) {
     
