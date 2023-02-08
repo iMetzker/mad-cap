@@ -61,9 +61,6 @@ a {
     position: relative;
   }
 
-  .menu-logo img {
-    max-width: 5rem;
-  }
 
   .menu-logo a{
     font-size: 1.5rem;
@@ -76,16 +73,14 @@ a {
     cursor: pointer;  
   }
 
-  .menu-logo a span {
-    margin-top: 1.2rem;
-  }
+ 
 
   .menu-logo a span.logo-detail {
     font-weight: bold;
   }
 
   .menu-logo a span.logo-detail-point {
-    margin-top: .1rem;
+    margin-top: -1rem;
     font-size: 3rem;
     color: #f77f00;
   }
@@ -150,7 +145,7 @@ a {
   }
 
   .home-description p {
-    margin: 2.5rem 0;
+    margin:  2.5rem 0 5rem 0 ;
     max-width: 80rem;
   }
  
@@ -354,9 +349,6 @@ a {
     justify-content: center;
     flex-direction: column;
   }
-  div.contact-content .logo-contact img{
-    min-width: 30rem;
-  }
 
   .logo-contact {
     display: flex;
@@ -381,7 +373,7 @@ a {
 
   .contact-content hr {
     height: .2rem;
-    width: 100rem;
+    width: 70rem;
     background-color: #46494c;
     margin: 2rem 0;
   }

@@ -1,6 +1,9 @@
 /* MENU */
 @media (max-width: 815px) {
 
+  .menu-content {
+    padding: 3rem 2rem;
+  }
   
     
   .menu-mobile-lines {
@@ -62,11 +65,12 @@
 }
 
 
-
-
 /* ABOUT */
 @media (max-width: 1380px) {
     
+  section {
+    overflow: hidden;
+  }
     .about-content{
         grid-template-columns: 1fr 1fr;
         padding-top: 5rem;
@@ -89,7 +93,7 @@
     
     }
 
-/* SERVICES */
+
     @media (max-width: 1180px) {
         .services-content {
             display: flex;
@@ -196,3 +200,15 @@
        }     
 
           }
+
+@media (max-width: 400px) {
+
+  .contact-content h3 {
+    font-size: 2.5rem;
+  }
+
+  .home-title {
+    font-size: 2.6rem;
+  }
+
+}
