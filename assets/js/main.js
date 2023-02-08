@@ -1,14 +1,26 @@
-const mobileLines = document.querySelector('.menu-mobile-lines');
-const selectPageMenu = document.querySelector('.menu ul');
+const target = document.querySelectorAll('[data-animated]');
 
-mobileLines.onclick = () => {
-const nav = document.querySelector('.nav-bar');
-nav.classList.toggle('active');
+
+function menuMobile() {
+  const nav = document.querySelector(".nav-bar");
+  nav.classList.toggle("active");
 }
 
-selectPageMenu.onclick = () => {
-    const aClick = document.querySelector('a');
-    aClick.classList.toggle('active');
-    }
+function animation() {
+    const animationClass = 'animate';
+    const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
+    target.forEach((element)=> {
+        if ((windowTop) > element.offsetTop) {
+            element.classList.add(animationClass);
+        } else {
+            element.classList.remove(animationClass);
+        }
+    })
 
+}
 
+if(target.length){
+    window.addEventListener('scroll', () => {
+        animation(); 
+    })
+}

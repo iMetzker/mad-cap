@@ -30,6 +30,7 @@ a {
 
   .menu {
     position: fixed;
+    z-index: 2;
     height: 6rem;
     min-width: 100vw;
     background-color: #FFFFFF;
@@ -416,3 +417,29 @@ a {
 
   }
 
+/* ANIMATIONS */
+[data-animated] {
+  opacity: 0;
+  transition: .4s;
+}
+
+[data-animated="left"] {
+  transform: translate3d(-10rem, 0, 0);
+}
+
+[data-animated="right"] {
+  transform: translate3d(10rem, 0, 0);
+}
+
+[data-animated="top"] {
+  transform: translate3d(0, -30rem, 0);
+}
+
+[data-animated="bottom"] {
+  transform: translate3d(0, 30rem, 0);
+}
+
+[data-animated].animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}

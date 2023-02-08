@@ -29,7 +29,7 @@
             </a>
           </div>
 
-          <div class="menu-mobile-lines">
+          <div class="menu-mobile-lines" onclick="menuMobile ()">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
@@ -38,10 +38,10 @@
    
         <nav class="nav-bar">
           <ul>
-            <li><a href="#" rel="home">Home</a></li>
-            <li><a href="#about" rel="quem-somos">Quem somos</a></li>
-            <li><a href="#services" rel="serviços">Serviços</a></li>
-            <li><a href="#contact" rel="contato">Contato</a></li>
+            <li><a href="#" rel="home" onclick="menuMobile ()">Home</a></li>
+            <li><a href="#about" rel="quem-somos" onclick="menuMobile ()">Quem somos</a></li>
+            <li><a href="#services" rel="serviços" onclick="menuMobile ()">Serviços</a></li>
+            <li><a href="#contact" rel="contato" onclick="menuMobile ()">Contato</a></li>
           </ul>
         </nav>
 
@@ -127,15 +127,15 @@
     <section id="about" class="page">
 
         <div class="about-content">
-            <div class="about-img">
+            <div class="about-img" data-animated="left">
                 <img src="./assets/img/about.jpg" alt="">
             </div>
-            <div class="about-text">
+            <div class="about-text" data-animated="right">
                 <h2>Quem <span>somos</span></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias laboriosam architecto, provident officia veniam magni eum aliquid eos culpa porro quos dolorum sunt! Nihil beatae quae illum eius repudiandae.</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem illo sunt eos, iusto perspiciatis nostrum omnis quo excepturi suscipit culpa asperiores sed saepe quas, harum, neque eum. Recusandae, id inventore.</p>
 
-                <div class="about-details">
+                <div class="about-details" data-animated="right">
                     <div class="about-details-info">
                         <h3>230</h3>
                         <p>Projetos Realizados</p>
@@ -155,7 +155,7 @@
     </section>
 
     <div class="time-line">
-        <div class="time-line-progress">
+        <div class="time-line-progress" data-animated="top">
             <div class="ball">
                 <svg width="70px" height="70px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.47998 18.35L10.58 20.75C10.98 21.15 11.88 21.35 12.48 21.35H16.28C17.48 21.35 18.78 20.45 19.08 19.25L21.48 11.95C21.98 10.55 21.08 9.34997 19.58 9.34997H15.58C14.98 9.34997 14.48 8.84997 14.58 8.14997L15.08 4.94997C15.28 4.04997 14.68 3.04997 13.78 2.74997C12.98 2.44997 11.98 2.84997 11.58 3.44997L7.47998 9.54997" stroke="#FFF" stroke-width="1.5" stroke-miterlimit="10" />
@@ -166,7 +166,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </div>
 
-        <div class="time-line-progress">
+        <div class="time-line-progress" data-animated="bottom">
             <div class="ball">
                 <svg width="70px" height="70px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 13H5C3.89543 13 3 12.1046 3 11V7C3 5.89543 3.89543 5 5 5H13C13.5523 5 14 5.44772 14 6V12C14 12.5523 13.5523 13 13 13H11M6 13L5.32612 17.7172C5.154 18.922 6.08892 20 7.30602 20H8.26541C9.26071 20 10.1046 19.2681 10.2453 18.2828L11 13M6 13H11M18 9C18 10.6569 16.6569 12 15 12H14M18 9C18 7.34315 16.6569 6 15 6H14M18 9H23" stroke="#FFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -176,7 +176,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </div>
 
-        <div class="time-line-progress">
+        <div class="time-line-progress" data-animated="top">
             <div class="ball">
                 <svg width="70px" height="70px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M15 2V12C15 13.1 14.1 14 13 14H2V7.62C2.73 8.49 3.85003 9.03 5.09003 9C6.10003 8.98 7.01 8.59 7.69 7.94C8 7.68 8.26002 7.34999 8.46002 6.98999C8.82002 6.37999 9.02 5.65997 9 4.90997C8.97 3.73997 8.45001 2.71 7.64001 2H15Z" stroke="#FFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -192,7 +192,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </div>
 
-        <div class="time-line-progress">
+        <div class="time-line-progress" data-animated="bottom">
             <div class="ball">
                 <svg width="70px" height="70px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M22.7353 10.112L23.0133 9.837C23.1226 9.72871 23.1986 9.59137 23.2322 9.44125C23.2658 9.29114 23.2557 9.13452 23.2031 8.98996C23.1505 8.84539 23.0576 8.71893 22.9353 8.62554C22.8131 8.53215 22.6666 8.47574 22.5133 8.463L16.0733 7.825L12.7323 1.2C12.6636 1.0658 12.5592 0.953173 12.4306 0.874523C12.3019 0.795874 12.1541 0.754257 12.0033 0.754257C11.8526 0.754257 11.7047 0.795874 11.5761 0.874523C11.4475 0.953173 11.343 1.0658 11.2743 1.2L7.92834 7.825L1.48833 8.463C1.33502 8.47574 1.18857 8.53215 1.06632 8.62554C0.944069 8.71893 0.851139 8.84539 0.798531 8.98996C0.745923 9.13452 0.735841 9.29114 0.769479 9.44125C0.803118 9.59137 0.879067 9.72871 0.988335 9.837L6.28833 15.09L4.33233 22.228C4.29213 22.3794 4.29652 22.5392 4.34498 22.6882C4.39344 22.8371 4.48391 22.9689 4.60549 23.0677C4.72708 23.1665 4.87461 23.228 5.03035 23.2449C5.18608 23.2618 5.34338 23.2334 5.48334 23.163L9.13623 21.3537" stroke="#FFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -206,30 +206,30 @@
 
     </div>
     <section id="services" class="page">
-      <h2>Serviços</h2>
+      <h2 data-animated="left">Serviços</h2>
       <div class="services-content">        
-        <div class="service-about">
+        <div class="service-about" data-animated="left">
           <img src="./assets/img/manufacturing.jpg" alt="">
           <h3>Fabricação</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, molestiae sint cupiditate neque et, sit, odio rem repellendus ipsa adipisci dolor. Dolores praesentium dolorem modi magni! Consequatur aliquam sapiente voluptas!</p>
           <a href="#" target="_blank" rel="noopener noreferrer">saber mais...</a>
         </div>
 
-        <div class="service-about">
+        <div class="service-about" data-animated="top">
           <img src="./assets/img/repair.jpg" alt="">
           <h3>Reparo e Acabamento</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, molestiae sint cupiditate neque et, sit, odio rem repellendus ipsa adipisci dolor. Dolores praesentium dolorem modi magni! Consequatur aliquam sapiente voluptas!</p>
           <a href="#" target="_blank" rel="noopener noreferrer">saber mais...</a>
         </div>
 
-        <div class="service-about">
+        <div class="service-about" data-animated="right">
           <img src="./assets/img/restoration.jpg" alt="">
           <h3>Restauração</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, molestiae sint cupiditate neque et, sit, odio rem repellendus ipsa adipisci dolor. Dolores praesentium dolorem modi magni! Consequatur aliquam sapiente voluptas!</p>
           <a href="#" target="_blank" rel="noopener noreferrer">saber mais...</a>
         </div>
 
-        <button class="service-btn">Faça Um Orçamento</button>
+        <button class="service-btn" data-animated="top">Faça Um Orçamento</button>
       </div>
     </section>
 
@@ -237,7 +237,7 @@
 
       <div class="contact-content">
         
-        <div class="menu-logo logo-contact">
+        <div class="menu-logo logo-contact" data-animated="top">
             <img src="./assets/img/icon.png" alt="" />
             <span class="logo-detail">Mad</span>
             <span>Cap</span> 
@@ -245,8 +245,8 @@
         </div>
 
         <hr>
-        <h3>Marcenaria e Carpintaria</h3>
-        <div class="description-contact">
+        <h3 data-animated="left">Marcenaria e Carpintaria</h3>
+        <div class="description-contact" data-animated="left">
           <div class="contact-about">
             <svg width="20px" height="20px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <title>location-filled</title>
@@ -261,7 +261,7 @@
             <p>Rua xx xx xx, 00, xx, Teófilo Otoni-MG. CEP: 39800-000</p>
           </div>
 
-          <div class="contact-about">
+          <div class="contact-about" data-animated="left">
             <svg height="20px" width="20px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
             viewBox="0 0 512 512"  xml:space="preserve">
          <style type="text/css">
@@ -280,13 +280,13 @@
             <p>(33) 3500-000 (33) 9 9999-9999</p>
           </div>
 
-          <div class="contact-about">
+          <div class="contact-about" data-animated="left">
             <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
             <p>email@gmail.com</p>
           </div>
         </div>
 
-          <div class="contact-about contact-about-icons">
+          <div class="contact-about contact-about-icons" data-animated="bottom">
           
             <a href="#">
               <svg
