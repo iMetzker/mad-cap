@@ -7,19 +7,25 @@
 ![](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
 
-## 📎 Sobre
+## 📎 About / Sobre
 
-O projeto consiste na criação de uma landing page para uma marcenaria e carpintaria fictícia que oferece produtos e serviços de trabalhos manuais, chamada MadCap.
-
-⚙ O projeto está atualmente em desenvolvimento, previsão para finalização na data 08/02/23. <br>
-🔗<a href="https://madcap-by-imetzker.netlify.app/">Acompanhe Aqui.</a>
+The project consists of creating a landing page for a fictional joinery and carpentry shop that offers craft products and services, called MadCap.
+>O projeto consiste na criação de uma landing page estática para uma marcenaria e carpintaria fictícia que oferece produtos e serviços de trabalhos manuais, chamada MadCap.
 
 
-## 🛸 Tecnologias Utilizadas
+## 🛸 Technologies Used / Tecnologias Utilizadas
 
 - HTML 5
 - CSS 3
 - JAVA SCRIPT
+
+
+## 🖥️ Demonstração / Demonstration
+<img src="./assets/img/preview.png">
+
+## 🔗 Link da Página / Page Link
+
+<a href="https://madcap-by-imetzker.netlify.app/" rel="Site" target="_blank">Clique aqui para ir para o projeto em execução</a>
 
 
 ## 👾 Créditos
