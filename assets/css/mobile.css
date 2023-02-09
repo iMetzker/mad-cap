@@ -11,6 +11,12 @@
 @media (max-width: 480px) {
   .modal-content {
     width: 90vw;
+    padding: 1rem;
+  }
+
+  .modal-content h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
   }
 }
 
